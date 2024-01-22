@@ -30,7 +30,7 @@
     />
   </div>
   <div className={styles.cardBody}>
-    <<span className={styles.tag}>Technology</span>
+    <span className={styles.tag}>Technology</span>
     <h2 className={styles.cardTitle}>What's new in 2022 Tech</h2>
     <p className={styles.cardText}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis
@@ -39,7 +39,11 @@
   </div>
   <div className={styles.cardFooter}>
     <div className={styles.userBox}>
-      <img className={styles.avatar} src="https://i.pravatar.cc/40?img=1" alt="Jane Doe" />
+      <img
+        className={styles.avatar}
+        src="https://i.pravatar.cc/40?img=1"
+        alt="Jane Doe"
+      />
       <div>
         <h3 className={styles.userName}>Jane Doe</h3>
         <small className={styles.date}>2h ago</small>

@@ -57,5 +57,5 @@
 ```js
 import transactions from 'data/transactions.json';
 
-<TransactionHistory items={transactions} />;
+<CryptoHistory items={transactions} />;
 ```
